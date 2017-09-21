@@ -1,0 +1,64 @@
+#backup
+*.bak
+*~
+
+# configurator files
+*.i
+kernel_id.h
+kernel_cfg.c
+kernel_vct.c
+
+# output files
+*.elf
+*.axf
+*.bin
+*.out
+*.hex
+*.mot
+*.map
+*.lst
+*.abs
+*.exe
+*.x
+
+# liblary files
+*.a
+*.lib
+*.l
+
+# object files
+objs_*/
+*.o
+*.obj
+*.ro
+
+# disasm
+*.dis
+
+# VC++ file
+*.vcxproj.*
+!*.vcxproj.filters
+*.ipch
+*.suo
+*.sdf
+*.opensdf
+*.vcproj.*
+*.ncb
+Debug/
+Release/
+
+# release
+tools/make_release/hos-v4a
+*.zip
+*.lzh
+*.tgz
+*.tar.gz
+
+# etc
+*.bmm
+*.v
+
+# setting
+.*
+!.gitignore
+!.gitattributes
